@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class PercolationUF implements IPercolate {
 
     private IUnionFind myFinder;
@@ -7,11 +9,9 @@ public class PercolationUF implements IPercolate {
     private int myOpenCount;
 
     public PercolationUF(IUnionFind finder, int size){
-        for(int i = 0; i < size; i++){
-            for(int j = 0; j < size; j++){
-                myGrid[i][j] = false;
-            }
-        }
+        myGrid = new boolean[size][size];
+        for (boolean[] row : myGrid)
+            Arrays.fill(row, false);
         finder.initialize(size*size + 2);
         myFinder = finder;
         myOpenCount = 0;
@@ -30,7 +30,7 @@ public class PercolationUF implements IPercolate {
         }
         myGrid[row][col] = true;
         if(row == 0) myFinder.union(row*myGrid.length + col, VTOP);
-        if(row == myGrid.length) myFinder.union(row*myGrid.length + col, VBOTTOM);
+        if(row == myGrid.length - 1) myFinder.union(row*myGrid.length + col, VBOTTOM);
         if(inBounds(row - 1, col)) if(isOpen(row-1, col)) myFinder.union(row*myGrid.length + col, (row-1)*myGrid.length + col);
         if(inBounds(row + 1, col)) if(isOpen(row+1, col)) myFinder.union(row*myGrid.length + col, (row+1)*myGrid.length + col);
         if(inBounds(row, col - 1)) if(isOpen(row, col - 1)) myFinder.union(row*myGrid.length + col, row*myGrid.length + (col - 1));
