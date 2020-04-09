@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="443d8463-54fa-4b33-b5f2-cea90ce28a85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P5-Percolation-SP20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/P5-Percolation-SP20.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InteractivePercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractivePercolationVisualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PercolationDFSFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationDFSFast.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDFSPercolation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P5-Percolation-SP20" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDFSPercolation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestUFPercolation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="P5-Percolation-SP20" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,6 +82,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.InteractivePercolationVisualizer" />
+        <item itemvalue="JUnit.TestDFSPercolation" />
         <item itemvalue="JUnit.TestUFPercolation" />
         <item itemvalue="JUnit.TestUFPercolation.testUFPercolates" />
       </list>
@@ -117,38 +127,39 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1586042999891">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="291" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586436075958">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1586042999891" />
+    <state x="291" y="140" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1586436075958" />
     <state x="572" y="329" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585457250839">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="572" y="329" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.822@0.23.1440.822" timestamp="1585457250839" />
-    <state width="676" height="198" key="GridCell.Tab.0.bottom" timestamp="1586401640108">
+    <state width="676" height="198" key="GridCell.Tab.0.bottom" timestamp="1586436796989">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1586300186419" />
     <state width="1398" height="263" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586048951822" />
-    <state width="676" height="198" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1586401640108" />
-    <state width="676" height="198" key="GridCell.Tab.0.center" timestamp="1586401640106">
+    <state width="676" height="198" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1586436796989" />
+    <state width="676" height="198" key="GridCell.Tab.0.center" timestamp="1586436796989">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1586300186418" />
     <state width="1398" height="263" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1586048951821" />
-    <state width="676" height="198" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1586401640106" />
-    <state width="676" height="198" key="GridCell.Tab.0.left" timestamp="1586401640105">
+    <state width="676" height="198" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1586436796989" />
+    <state width="676" height="198" key="GridCell.Tab.0.left" timestamp="1586436796988">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1586300186418" />
     <state width="1398" height="263" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1586048951820" />
-    <state width="676" height="198" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1586401640105" />
-    <state width="676" height="198" key="GridCell.Tab.0.right" timestamp="1586401640107">
+    <state width="676" height="198" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1586436796988" />
+    <state width="676" height="198" key="GridCell.Tab.0.right" timestamp="1586436796989">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1586300186419" />
     <state width="1398" height="263" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1586048951821" />
-    <state width="676" height="198" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1586401640107" />
+    <state width="676" height="198" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1586436796989" />
     <state width="1398" height="263" key="GridCell.Tab.1.bottom" timestamp="1586048951823">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
@@ -193,5 +204,9 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="0" y="23" width="1024" height="825" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1586401518162" />
+    <state x="109" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1586433871201">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="109" y="286" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1586433871201" />
   </component>
 </project>
