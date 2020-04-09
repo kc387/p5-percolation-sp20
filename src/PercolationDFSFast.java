@@ -13,16 +13,16 @@ public class PercolationDFSFast extends PercolationDFS{
         if(row == 0) {
             dfs(row, col);
         }
-        else if (isFull(row - 1, col) == true){
+        else if (inBounds(row - 1, col) == true && isFull(row - 1, col) == true){
             dfs(row, col);
         }
-        else if (isFull (row + 1, col) == true){
+        else if (inBounds(row + 1, col) == true && isFull (row + 1, col) == true){
             dfs(row, col);
         }
-        else if (isFull(row, col - 1) == true) {
+        else if (inBounds(row, col - 1) == true && isFull(row, col - 1) == true) {
             dfs(row, col);
         }
-        else if (isFull(row, col + 1) == true){
+        else if (inBounds(row, col + 1) == true && isFull(row, col + 1) == true){
             dfs(row, col);
         }
     }
