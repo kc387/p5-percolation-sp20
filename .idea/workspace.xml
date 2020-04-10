@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="443d8463-54fa-4b33-b5f2-cea90ce28a85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P5-Percolation-SP20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/P5-Percolation-SP20.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InteractivePercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractivePercolationVisualizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PercolationBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PercolationDFSFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationDFSFast.java" afterDir="false" />
-    </list>
+    <list default="true" id="443d8463-54fa-4b33-b5f2-cea90ce28a85" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -203,11 +196,11 @@
     </state>
     <state width="1398" height="263" key="GridCell.Tab.2.right/0.23.1440.822@0.23.1440.822" timestamp="1586048560200" />
     <state width="1398" height="263" key="GridCell.Tab.2.right/0.23.1440.823@0.23.1440.823" timestamp="1586048951824" />
-    <state x="0" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1586466332033">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="0" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1586486889490">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="0" y="23" width="1024" height="822" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1586466332033" />
-    <state x="0" y="23" width="1024" height="825" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1586401518162" />
+    <state x="0" y="23" width="1024" height="825" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1586486889490" />
     <state x="109" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1586433871201">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
