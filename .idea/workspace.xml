@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="443d8463-54fa-4b33-b5f2-cea90ce28a85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/PercolationBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationBFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PercolationDFSFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationDFSFast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PercolationUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercolationUF.java" afterDir="false" />
+=======
+>>>>>>> bab08706e79f5f2e0c328a6e33a8fdc4e662cba3
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
