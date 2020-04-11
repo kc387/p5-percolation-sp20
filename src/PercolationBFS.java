@@ -10,6 +10,13 @@ public class PercolationBFS extends PercolationDFSFast {
         super(n);
     }
 
+    /**
+	 * Helper method to mark all cells that are open and reachable from
+	 * (row,col).
+     *
+     * @param row is the row coordinate of the cell being checked/marked
+	 * @param col is the col coordinate of the cell being checked/marked
+	 */
     @Override
     protected void dfs(int row, int col) {
         int size = 0;

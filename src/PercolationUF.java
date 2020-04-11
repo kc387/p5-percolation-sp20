@@ -8,6 +8,12 @@ public class PercolationUF implements IPercolate {
     private final int VBOTTOM;
     private int myOpenCount;
 
+    /**
+     * Initialize a grid so that all cells are blocked and are each part of their own set
+     *
+     * @param finder is a IUnionFind object that determines the sets of the cells and unions them when cells are opened
+     * @param size is the size of the simulated (square) grid
+     */
     public PercolationUF(IUnionFind finder, int size){
         myGrid = new boolean[size][size];
         for (boolean[] row : myGrid)
@@ -19,6 +25,11 @@ public class PercolationUF implements IPercolate {
         VBOTTOM = size*size + 1;
     }
 
+    /**
+     * Open a cell (row,col) in the grid if it is in bounds and combine the sets of cells
+     * @param row specifies row
+     * @param col specifies column
+     */
     @Override
     public void open(int row, int col) {
         if (! inBounds(row,col)) {
@@ -38,6 +49,12 @@ public class PercolationUF implements IPercolate {
         myOpenCount++;
     }
 
+    /**
+     * Determine if a cell (row,col) of the grid is open
+     * @param row specifies row
+     * @param col specifies column
+     * @return true if the cell has an Open status
+     */
     @Override
     public boolean isOpen(int row, int col) {
         if (! inBounds(row,col)) {
@@ -47,6 +64,12 @@ public class PercolationUF implements IPercolate {
         return myGrid[row][col];
     }
 
+    /**
+     * Determine if a cell (row,col) of the grid is full
+     * @param row specifies row
+     * @param col specifies column
+     * @return true if the cell has an Full status
+     */
     @Override
     public boolean isFull(int row, int col) {
         if (! inBounds(row,col)) {
@@ -56,11 +79,19 @@ public class PercolationUF implements IPercolate {
         return myFinder.connected(row*myGrid.length + col, VTOP);
     }
 
+    /**
+     * Determine if a there is a path from the top to the bottom of the grid
+     * @return true if the grid has the top and bottom set connected
+     */
     @Override
     public boolean percolates() {
         return myFinder.connected(VTOP, VBOTTOM);
     }
 
+    /**
+     * Determine number of open sites within the entire grid
+     * @return number of open cells in grid
+     */
     @Override
     public int numberOfOpenSites() {
         return myOpenCount;

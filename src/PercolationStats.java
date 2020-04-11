@@ -16,9 +16,9 @@ public class PercolationStats {
 	 private IPercolate getPercolator(int size) {
 		 //return new PercolationDFS(size);
 		 //return new PercolationBFS(size);
-         return new PercolationDFSFast(size);
-		 //IUnionFind uf = new QuickUWPC();
-         //return new PercolationUF(uf,size);
+         //return new PercolationDFSFast(size);
+		 IUnionFind uf = new QuickUWPC();
+         return new PercolationUF(uf,size);
 	 }
 	 
 	 private ArrayList<int[]> getRandomSites(int size){
@@ -59,7 +59,7 @@ public class PercolationStats {
 	
 	public static void main(String[] args) {
 		PercolationStats ps = new PercolationStats();
-		int trials = 20;
+		int trials = 10;
 		int first = 100;
 		int last = 3200;
 		System.out.printf("simulation data for %d trials\n",trials);

@@ -9,6 +9,11 @@ public class PercolationDFSFast extends PercolationDFS{
         super(n);
     }
 
+    /**
+     * Determines if a cell is full of water based on other surrounding cells
+     * @param row specifies row
+     * @param col specifies column
+     */
     @Override
     protected void updateOnOpen(int row, int col) {
         full = false;
