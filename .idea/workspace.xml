@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="443d8463-54fa-4b33-b5f2-cea90ce28a85" name="Default Changelist" comment="" />
+    <list default="true" id="443d8463-54fa-4b33-b5f2-cea90ce28a85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P5-Percolation-SP20.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P6-Percolation-Fall19.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/analysis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/IPercolate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/IUnionFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/InteractivePercolationVisualizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/PercolationDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/PercolationStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickUW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/QuickUWPC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/StdDraw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/StdStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/TestDFSPercolation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/P6-Percolation-Fall19/TestUFPercolation.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,35 +33,34 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YiInQJPmmmUBhXO60LuFXKde8c" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.InteractivePercolationVisualizer">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InteractivePercolationVisualizer" />
       <module name="P5-Percolation-SP20" />
@@ -47,54 +68,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDFSPercolation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="P5-Percolation-SP20" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDFSPercolation" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUFPercolation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="P5-Percolation-SP20" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestUFPercolation" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUFPercolation.testUFPercolates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="P5-Percolation-SP20" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestUFPercolation" />
-      <option name="METHOD_NAME" value="testUFPercolates" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.InteractivePercolationVisualizer" />
-        <item itemvalue="JUnit.TestUFPercolation" />
-        <item itemvalue="JUnit.TestDFSPercolation" />
-        <item itemvalue="JUnit.TestUFPercolation.testUFPercolates" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -123,101 +101,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="291" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586439162865">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.822@0.23.1440.822" timestamp="1586042999891" />
-    <state x="291" y="140" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1586439162865" />
-    <state x="572" y="330" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586636419473">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="572" y="329" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.822@0.23.1440.822" timestamp="1586465703398" />
-<<<<<<< HEAD
-    <state width="676" height="198" key="GridCell.Tab.0.bottom" timestamp="1586636387771">
-=======
-    <state x="572" y="330" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.825@0.23.1440.825" timestamp="1586636419473" />
-    <state width="676" height="198" key="GridCell.Tab.0.bottom" timestamp="1586636214277">
->>>>>>> 2aedfae61d959ff7c8cdbec9b67c1fba6f1c1e8e
+    <state width="676" height="198" key="GridCell.Tab.0.bottom" timestamp="1586637079440">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1586300186419" />
-    <state width="1340" height="209" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586467460352" />
-    <state width="676" height="198" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1586635596135" />
-    <state width="676" height="198" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586636387771" />
-    <state width="676" height="198" key="GridCell.Tab.0.center" timestamp="1586636387769">
+    <state width="676" height="198" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586637079440" />
+    <state width="676" height="198" key="GridCell.Tab.0.center" timestamp="1586637079438">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1586300186418" />
-    <state width="1340" height="209" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1586467460350" />
-    <state width="676" height="198" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1586635596133" />
-    <state width="676" height="198" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586636387769" />
-    <state width="676" height="198" key="GridCell.Tab.0.left" timestamp="1586636387768">
+    <state width="676" height="198" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586637079438" />
+    <state width="676" height="198" key="GridCell.Tab.0.left" timestamp="1586637079437">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1586300186418" />
-    <state width="1340" height="209" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1586467460349" />
-    <state width="676" height="198" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1586635596133" />
-    <state width="676" height="198" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586636387768" />
-    <state width="676" height="198" key="GridCell.Tab.0.right" timestamp="1586636387769">
+    <state width="676" height="198" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586637079437" />
+    <state width="676" height="198" key="GridCell.Tab.0.right" timestamp="1586637079438">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1586300186419" />
-    <state width="1340" height="209" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1586467460351" />
-    <state width="676" height="198" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1586635596134" />
-    <state width="676" height="198" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586636387769" />
-    <state width="676" height="247" key="GridCell.Tab.1.bottom" timestamp="1586635573759">
+    <state width="676" height="198" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586637079438" />
+    <state x="0" y="23" width="1024" height="826" key="SettingsEditor" timestamp="1586636830259">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="1398" height="263" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1586048560198" />
-    <state width="1398" height="263" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586048951823" />
-    <state width="676" height="247" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586635573759" />
-    <state width="676" height="247" key="GridCell.Tab.1.center" timestamp="1586635573757">
-      <screen x="0" y="23" width="1440" height="826" />
-    </state>
-    <state width="1398" height="263" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1586048560197" />
-    <state width="1398" height="263" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1586048951822" />
-    <state width="676" height="247" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1586635573757" />
-    <state width="676" height="247" key="GridCell.Tab.1.left" timestamp="1586635573757">
-      <screen x="0" y="23" width="1440" height="826" />
-    </state>
-    <state width="1398" height="263" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1586048560197" />
-    <state width="1398" height="263" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1586048951822" />
-    <state width="676" height="247" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1586635573757" />
-    <state width="676" height="247" key="GridCell.Tab.1.right" timestamp="1586635573758">
-      <screen x="0" y="23" width="1440" height="826" />
-    </state>
-    <state width="1398" height="263" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1586048560198" />
-    <state width="1398" height="263" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1586048951823" />
-    <state width="676" height="247" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1586635573758" />
-    <state width="1398" height="263" key="GridCell.Tab.2.bottom" timestamp="1586048951824">
-      <screen x="0" y="23" width="1440" height="823" />
-    </state>
-    <state width="1398" height="263" key="GridCell.Tab.2.bottom/0.23.1440.822@0.23.1440.822" timestamp="1586048560200" />
-    <state width="1398" height="263" key="GridCell.Tab.2.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586048951824" />
-    <state width="1398" height="263" key="GridCell.Tab.2.center" timestamp="1586048951824">
-      <screen x="0" y="23" width="1440" height="823" />
-    </state>
-    <state width="1398" height="263" key="GridCell.Tab.2.center/0.23.1440.822@0.23.1440.822" timestamp="1586048560199" />
-    <state width="1398" height="263" key="GridCell.Tab.2.center/0.23.1440.823@0.23.1440.823" timestamp="1586048951824" />
-    <state width="1398" height="263" key="GridCell.Tab.2.left" timestamp="1586048951823">
-      <screen x="0" y="23" width="1440" height="823" />
-    </state>
-    <state width="1398" height="263" key="GridCell.Tab.2.left/0.23.1440.822@0.23.1440.822" timestamp="1586048560199" />
-    <state width="1398" height="263" key="GridCell.Tab.2.left/0.23.1440.823@0.23.1440.823" timestamp="1586048951823" />
-    <state width="1398" height="263" key="GridCell.Tab.2.right" timestamp="1586048951824">
-      <screen x="0" y="23" width="1440" height="823" />
-    </state>
-    <state width="1398" height="263" key="GridCell.Tab.2.right/0.23.1440.822@0.23.1440.822" timestamp="1586048560200" />
-    <state width="1398" height="263" key="GridCell.Tab.2.right/0.23.1440.823@0.23.1440.823" timestamp="1586048951824" />
-    <state x="0" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1586486889490">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="0" y="23" width="1024" height="822" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1586466332033" />
-    <state x="0" y="23" width="1024" height="825" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1586486889490" />
-    <state x="109" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1586614668609">
-      <screen x="0" y="23" width="1440" height="822" />
-    </state>
-    <state x="109" y="286" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1586614668609" />
-    <state x="109" y="286" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1586433871201" />
+    <state x="0" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1586636830259" />
   </component>
 </project>
