@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PercolationStats">
     <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InteractivePercolationVisualizer" />
       <module name="P5-Percolation-SP20" />
@@ -68,8 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="P5-Percolation-SP20" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PercolationStats" />
         <item itemvalue="Application.InteractivePercolationVisualizer" />
       </list>
     </recent_temporary>
@@ -101,22 +109,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="676" height="198" key="GridCell.Tab.0.bottom" timestamp="1586637079440">
+    <state width="570" height="198" key="GridCell.Tab.0.bottom" timestamp="1586637179985">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="676" height="198" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586637079440" />
-    <state width="676" height="198" key="GridCell.Tab.0.center" timestamp="1586637079438">
+    <state width="570" height="198" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586637179985" />
+    <state width="570" height="198" key="GridCell.Tab.0.center" timestamp="1586637179983">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="676" height="198" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586637079438" />
-    <state width="676" height="198" key="GridCell.Tab.0.left" timestamp="1586637079437">
+    <state width="570" height="198" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586637179983" />
+    <state width="570" height="198" key="GridCell.Tab.0.left" timestamp="1586637179981">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="676" height="198" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586637079437" />
-    <state width="676" height="198" key="GridCell.Tab.0.right" timestamp="1586637079438">
+    <state width="570" height="198" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586637179978" />
+    <state width="570" height="198" key="GridCell.Tab.0.right" timestamp="1586637179984">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state width="676" height="198" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586637079438" />
+    <state width="570" height="198" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586637179984" />
     <state x="0" y="23" width="1024" height="826" key="SettingsEditor" timestamp="1586636830259">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
